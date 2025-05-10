@@ -1,0 +1,47 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    width: 100vw;/* vw means the full width of the screen*/
+    height: 100vh;/* vh means the full height of the screen*/
+    background-image:url(./ai.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.container{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 40px;
+    border-radius: 10px;
+    position: absolute;
+    left: 20%;/*by using this container move towards the left.*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;/*By using this start listening moving towords the center*/
+    
+}
+.container h1{
+    letter-spacing: 4px;/*It give the space b/w the letters*/
+}
+button{
+    padding: 15px 25px;
+    border-radius: 8px;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    transition: all 0.25s;
+}
+button:hover{
+    background-color: #45a409;
+}
